@@ -1,2 +1,3 @@
-# ios-ui-components
-iOS UI Components
+# UIComponents
+
+A description of this package.
