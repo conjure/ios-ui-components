@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CarouselView<Content: View, Data: Hashable>: View {
+public struct CarouselView<Content: View, Data: Hashable>: View {
     @Binding private var currentIndex: Int
     @State private var drag: CGFloat = 0.0
     @State private var offset: CGFloat = 0
@@ -22,7 +22,7 @@ struct CarouselView<Content: View, Data: Hashable>: View {
     private let spacing: CGFloat
     private let content: (Data) -> Content
     
-    init(items: [Data], spacing: CGFloat = 0, currentIndex: Binding<Int>, @ViewBuilder content: @escaping (Data) -> Content) {
+    public init(items: [Data], spacing: CGFloat = 0, currentIndex: Binding<Int>, @ViewBuilder content: @escaping (Data) -> Content) {
         self.items = items
         self.spacing = spacing
         self._currentIndex = currentIndex
@@ -34,7 +34,7 @@ struct CarouselView<Content: View, Data: Hashable>: View {
         self._offset = .init(wrappedValue: self.offsetShift)
     }
     
-    var body: some View {
+    public var body: some View {
         HStack(spacing: spacing) {
             ForEach(items, id: \.self) { item in
                 content(item)
