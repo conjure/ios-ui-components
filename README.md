@@ -24,7 +24,8 @@ To run the example project, clone the repo, go to the `Example` folder, and run 
 ### Carousel
 `CarouselView` provides a simple carousel-style scroll view with pagination where every item is centred in the middle.
 
-![](https://github.com/conjure/ios-ui-components/blob/main/Images/carousel-video.mp4)
+<video src="https://github.com/conjure/ios-ui-components/blob/main/Images/carousel-video.mp4" controls="controls" style="max-width: 180px;">
+</video>
 
 ##### Usage
 Using Carousel is as easy as:
