@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "ios-ui-components",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/conjure/ios-ui-components.git",
+      "state" : {
+        "revision" : "13b0bdde85be11e207085cfc2b6ad4bdc7ca589c",
+        "version" : "1.0.2"
+      }
+    }
+  ],
+  "version" : 2
+}
