@@ -24,7 +24,7 @@ To run the example project, clone the repo, go to the `Example` folder, and run 
 ### Carousel
 `CarouselView` provides a simple carousel-style scroll view with pagination where every item is centred in the middle.
 
-<video src='https://user-images.githubusercontent.com/69792814/234036475-af6358b5-5c58-4673-bc1b-c14fae9e0a2e.mp4' width=180></video>
+<img src="https://user-images.githubusercontent.com/69792814/234244590-b0d0985d-1a88-4278-b833-f0eac49ac92b.gif" width="300" height="649"> <img src="https://user-images.githubusercontent.com/69792814/234245516-bed62b5e-8e94-4cc9-8d2d-f3e9cd934ce0.gif" width="300" height="649">
 
 ##### Usage
 Using Carousel is as easy as:
